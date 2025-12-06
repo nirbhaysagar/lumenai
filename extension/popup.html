@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lumen Clipper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">L</div>
+      <h1>Lumen AI</h1>
+    </div>
+
+    <div id="main-view">
+      <div class="page-info">
+        <h2 id="page-title">Loading...</h2>
+        <p id="page-url">...</p>
+      </div>
+
+      <div class="actions">
+        <button id="clip-btn" class="primary-btn">Clip Page</button>
+        <button id="clip-sel-btn" class="secondary-btn">Clip Selection</button>
+        <button id="screenshot-btn" class="secondary-btn">Screenshot</button>
+      </div>
+
+      <div id="status" class="status hidden"></div>
+    </div>
+
+    <div class="footer">
+      <a href="#" id="settings-link">Settings</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
